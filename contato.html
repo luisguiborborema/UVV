@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos - Sabores Capixabas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&family=Lato:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1>Sabores Capixabas</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="receitas.html">Receitas</a></li>
+                    <li><a href="restaurantes.html">Restaurantes</a></li>
+                    <li><a href="dicas.html">Dicas</a></li>
+                    <li><a href="contato.html" class="active">Contatos</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <h2>Entre em Contato</h2>
+            <p>Tem uma sugestão de receita, quer indicar um restaurante ou apenas dizer um "olá"? Adoramos ouvir nossos leitores! Preencha o formulário abaixo ou envie um e-mail para contato@saborescapixabas.com.</p>
+
+            <form action="#" method="POST" class="form-contato">
+                <div class="form-grupo">
+                    <label for="nome">Nome:</label>
+                    <input type="text" id="nome" name="nome" required>
+                </div>
+                <div class="form-grupo">
+                    <label for="email">E-mail:</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-grupo">
+                    <label for="assunto">Assunto:</label>
+                    <input type="text" id="assunto" name="assunto">
+                </div>
+                <div class="form-grupo">
+                    <label for="mensagem">Mensagem:</label>
+                    <textarea id="mensagem" name="mensagem" required></textarea>
+                </div>
+                <div class="form-grupo">
+                    <button type="submit" class="botao-enviar">Enviar Mensagem</button>
+                </div>
+            </form>
+
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 Sabores Capixabas. Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+<script src="script.js"></script>
+</body>
+</html>
